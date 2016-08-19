@@ -19,9 +19,10 @@ blockquote, q {quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {content: ''; content: none; }
 table {border-collapse: collapse; border-spacing: 0; }
+h6{font-weight:bold;padding:10px 0;}
 body {line-height: 1;font-family: 'Roboto', sans-serif;background-color:#edecec;}
-p {color: #666666; font-size: 14px; line-height: 1.4; margin: 15px 0;max-height: 79px;
-    overflow: hidden; }
+p {color: #666666; font-size: 14px; line-height: 1.4; margin: 15px 0; }
+.home p{max-height: 79px;overflow: hidden;}
 a:hover, a:active, a:focus {outline: 0;}
 .marginT10{margin-top: 10px;}
 .header{width: 100%;float: left;margin:0;background: #2196f3;padding:35px 0;}
@@ -79,6 +80,7 @@ ul.header-top-links li a:hover{color: #fff;}
 .marginT25{margin-top:25px;}
 .recent-posts li {border-bottom: 1px dotted #cccccc;display: block;font-size: 14px;line-height: 1.3;margin-bottom: 8px;padding-bottom: 10px;}
 .recent-posts li:last-child{margin-bottom:0;padding-bottom:0;border:0;}
+#mc_embed_signup input.button{margin-bottom:0 !important;}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
