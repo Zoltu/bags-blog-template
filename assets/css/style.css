@@ -12,38 +12,39 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
-h6{font-weight:bold;}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; }
 ol, ul {list-style: none; }
 blockquote, q {quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {content: ''; content: none; }
 table {border-collapse: collapse; border-spacing: 0; }
-h6{font-weight:bold;padding:10px 0;}
 body {line-height: 1;font-family: 'Roboto', sans-serif;background-color:#edecec;}
+h6{font-weight:bold;padding:10px 0;}
 p {color: #666666; font-size: 14px; line-height: 1.4; margin: 15px 0; }
 .home p{max-height: 79px;overflow: hidden;}
 a:hover, a:active, a:focus {outline: 0;}
 .marginT10{margin-top: 10px;}
-.header{width: 100%;float: left;margin:0;background: #2196f3;padding:35px 0;}
+.header{width: 100%;float: left;margin:0;background: #2196f3;padding:10px 0;}
 .container{max-width: 1140px;margin:0 auto;padding:0 !important;}
-.logo{float: left;}
+.logo{float: left;width:100px;}
+.logo img{max-width:100%;}
 .blog-txt{  background: url("../images/logo-divider.png") no-repeat scroll 0 0;color: #ffffff; float: left; font-size: 30px; height: 45px; line-height: 45px; margin-left: 25px; padding-left: 25px; text-transform: uppercase; width: auto;font-weight: 500;}
 .header-top{width: 100%;float: left;margin: 0;background: #0c79d3;height: 24px;}
 ul.header-top-links {list-style: outside none none; margin: 0; padding: 2px 0 0; text-align: right; }
 ul.header-top-links li {display: inline-block; padding: 3px 0; }
 ul.header-top-links li:last-child a{border-right: 0;}
-ul.header-top-links li a {border-right: 1px solid #2a9af3; color: #eeeeee; display: block; font-size: 11px; padding: 0 10px 0 7px;text-decoration: none; }
+ul.header-top-links li a {border-right: 1px solid #2a9af3; color: #eeeeee; display: block; font-size: 11px; padding: 0 10px 0 7px;text-decoration: none;text-transform: uppercase; }
 ul.header-top-links li a:hover{color: #fff;}
 .external-icon{background: url("../images/external-link.png") no-repeat; display: inline-block; height: 11px; width: 15px;}
 .mid-container{display:inline-block;margin:35px 0; width:100%; }
-.heading{font-size:23px; margin-bottom:20px;float: left; } 
+.heading{font-size:16px; margin-bottom:15px;float: left;font-weight: 500;width:100%; } 
 .left-section{width:68%;float:left; }
 .blog-outer {width:100%; box-sizing:border-box; float:left; background: #ffffff none repeat scroll 0 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); padding: 3%;margin-bottom: 18px; }
 .blog-image{float:left; width:32%; }
 .blog-image img{max-width:100%;}
 .blog-content{float:right; width:64%; }
-.blog-heading{font-size: 24px; font-weight: 500; line-height: 1.2; margin-bottom: 15px;max-height: 85px;overflow: hidden; } 
+.blog-heading{font-size: 24px; font-weight: 500; line-height: 1.2; margin-bottom: 15px;max-height: 56px;overflow: hidden; } 
 .blog-heading > a {color: #000000; text-decoration: none; }
 .blog-heading > a:hover{text-decoration: underline;}
 .date{font-size:12px; line-height:15px; vertical-align:top; } 
@@ -81,6 +82,11 @@ ul.header-top-links li a:hover{color: #fff;}
 .recent-posts li {border-bottom: 1px dotted #cccccc;display: block;font-size: 14px;line-height: 1.3;margin-bottom: 8px;padding-bottom: 10px;}
 .recent-posts li:last-child{margin-bottom:0;padding-bottom:0;border:0;}
 #mc_embed_signup input.button{margin-bottom:0 !important;}
+.share-img{margin-right:6px;}
+h4 {font-size: 14px;font-weight: bold;margin-bottom: 15px;}
+.share {margin-bottom: 20px;float: left;width: 100%;font-size:13px;color:#666;}
+.share a{text-decoration:none;}
+.share.home{margin-bottom:12px}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
@@ -112,6 +118,7 @@ ul.header-top-links li a:hover{color: #fff;}
 @media only screen and (max-width:460px){
 	.blog-image, .blog-content{width: 100%;}
 	.blog-image{margin-bottom: 15px;}
+	.blog-image img{width:100%;}
 }
 @media only screen and (max-width:370px){
 .blog-image.small {width: 22%; }
