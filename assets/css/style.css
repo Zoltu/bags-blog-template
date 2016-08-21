@@ -44,7 +44,7 @@ ul.header-top-links li a:hover{color: #fff;}
 .blog-image{float:left; width:32%; }
 .blog-image img{max-width:100%;}
 .blog-content{float:right; width:64%; }
-.blog-heading{font-size: 24px; font-weight: 500; line-height: 1.2; margin-bottom: 15px;max-height: 85px;overflow: hidden; } 
+.blog-heading{font-size: 24px; font-weight: 500; line-height: 1.2; margin-bottom: 15px;max-height: 56px;overflow: hidden; } 
 .blog-heading > a {color: #000000; text-decoration: none; }
 .blog-heading > a:hover{text-decoration: underline;}
 .date{font-size:12px; line-height:15px; vertical-align:top; } 
@@ -86,7 +86,7 @@ ul.header-top-links li a:hover{color: #fff;}
 h4 {font-size: 14px;font-weight: bold;margin-bottom: 15px;}
 .share {margin-bottom: 20px;float: left;width: 100%;font-size:13px;color:#666;}
 .share a{text-decoration:none;}
-
+.share.home{margin-bottom:12px}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
@@ -118,6 +118,7 @@ h4 {font-size: 14px;font-weight: bold;margin-bottom: 15px;}
 @media only screen and (max-width:460px){
 	.blog-image, .blog-content{width: 100%;}
 	.blog-image{margin-bottom: 15px;}
+	.blog-image img{width:100%;}
 }
 @media only screen and (max-width:370px){
 .blog-image.small {width: 22%; }

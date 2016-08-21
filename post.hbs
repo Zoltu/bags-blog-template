@@ -89,24 +89,37 @@ var disqus_config = function () {
             </div>
             {{/post}}
         </div>
-        <aside>
+
           <aside>
-    <div class="right-section">     
-        <div class="heading marginT10">Subscribe</div>
+		  
+		  
+		  
+    <div class="right-section">  
+	<div class="blog-outer right">
+		<div class="heading">Featured</div>
+			{{#get "posts" limit="3" as |recents|}}
+				<section class="recent-posts">
+					<ol>
+						{{#foreach recents}}
+							<li><a href="{{url}}">{{title}}</a></li>
+						{{/foreach}}
+					</ol>
+				</section>
+			{{/get}}
+		</div>		
         <div class="blog-outer right">
             {{subscribe_form}}
         </div>
-        <div class="blog-outer right">
+        <!--<div class="blog-outer right">
             <div class="blog-heading small">Follow this blog</div>
             <div class="social-icons">
                 <a href="#"><img src="{{asset 'images/fb-icon.png'}}" /></a>
                 <a href="#"><img src="{{asset 'images/twitter-icon.png'}}" /></a>
                 <a href="#"><img src="{{asset 'images/instagram-icon.png'}}" /></a>
             </div>
-        </div>
+        </div>-->
     </div>
 </aside>
-        </aside>
     </div>
 </div>
 

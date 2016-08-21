@@ -1,20 +1,20 @@
 {
-  "name": "TrueStyle",
+  "name": "Bags-blog",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zazama/TrueStyle"
+    "url": "https://github.com/Zoltu/bags-blog-template"
   },
   "keywords": [
     "ghost",
     "theme",
     "bootstrap",
     "responsive",
-    "TrueStyle"
+    "Bags-blog"
   ],
-  "author": "Jan Metzger <jan.metzger@gmx.net>",
+  "author": "Lekhraj Mehta <mehta.lekhraj@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Zazama/TrueStyle/issues"
+    "url": "https://github.com/Zoltu/bags-blog-template"
   },
-  "homepage": "https://github.com/Zazama/TrueStyle"
+  "homepage": "https://github.com/Zoltu/bags-blog-template"
 }
