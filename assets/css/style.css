@@ -88,6 +88,13 @@ h4 {font-size: 14px;font-weight: bold;margin-bottom: 15px;}
 .share a{text-decoration:none;}
 .share.home{margin-bottom:12px}
 
+/* new css*/
+.blog-image.full-width.marginT25 .Image{display:none;}
+h6{padding-bottom:0 !important;}
+.clearfix{clear:both;}
+.left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;}
+.right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;}
+
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
 .container {width: 96%; }
