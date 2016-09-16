@@ -94,6 +94,7 @@ h6{padding-bottom:0 !important;}
 .clearfix{clear:both;}
 .left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;}
 .right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;}
+.page-number {display: inline-block;font-size: 14px;text-align: right;width: 35%;}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
@@ -102,6 +103,7 @@ h6{padding-bottom:0 !important;}
 @media only screen and (max-width:960px){
 .blog-heading.small{font-size: 14px;}
 .blog-heading{font-size:22px;max-height: 78px;}
+.page-number{width:28%;}
 }
 @media only screen and (max-width:767px){
 .right-section, .left-section {width: 100%; }
@@ -109,12 +111,14 @@ h6{padding-bottom:0 !important;}
 .right-section{margin-top:20px;}
 .blog-outer.right {padding: 4%; }
 .mid-container{margin-bottom:0;}
+.page-number {text-align: right;width: 37%;}
 }
 @media only screen and (max-width:640px){
 .popular-blog {margin-right: 0; width: 100%; }
 .blog-heading.small{max-height: 72px;}
 .blog-image.small {width: 16%; }
 .blog-content.popular {float: right; width: 79%; }
+.page-number{width:32%;}
 }
 @media only screen and (max-width:520px){
 .blog-heading.small {max-height: 36px; }
@@ -123,14 +127,16 @@ h6{padding-bottom:0 !important;}
 }
 
 @media only screen and (max-width:460px){
-	.blog-image, .blog-content{width: 100%;}
-	.blog-image{margin-bottom: 15px;}
-	.blog-image img{width:100%;}
+.blog-image, .blog-content{width: 100%;}
+.blog-image{margin-bottom: 15px;}
+.blog-image img{width:100%;}
+.page-number {width: 31%;}
 }
 @media only screen and (max-width:370px){
 .blog-image.small {width: 22%; }
 .blog-content.popular {width: 73%; }
 .blog-outer {padding: 20px; }
+.page-number {width: 25%;}
 }
 
 
