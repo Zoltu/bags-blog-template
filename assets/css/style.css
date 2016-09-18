@@ -14,16 +14,31 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; }
-ol, ul {list-style: none; }
+em{font-style:italic;}
+ul {list-style: disc;margin: 20px 0 20px 20px; }
+ol{list-style:decimal;margin:20px 0 20px 15px;;}
+ul li, ol li{padding:0;color: #666666;font-size: 14px;line-height: 1.4;margin-bottom:10px;}
 blockquote, q {quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {content: ''; content: none; }
 table {border-collapse: collapse; border-spacing: 0; }
-body {line-height: 1;font-family: 'Roboto', sans-serif;background-color:#edecec;}
+td { vertical-align: top; }
+body {line-height: 1.4;font-size:14px;font-family: 'Roboto', sans-serif;background-color:#edecec;}
+h1,h2,h3,h4,h5{font-weight:bold;padding:10px 0;}
+h2{font-size:20px}
+h3{font-size:19px;}
+h4 {font-size: 14px;margin-bottom: 5px;}
+h5{font-size:17px;}
 h6{font-weight:bold;padding:10px 0;}
 p {color: #666666; font-size: 14px; line-height: 1.4; margin: 15px 0; }
 .home p{max-height: 79px;overflow: hidden;}
 a:hover, a:active, a:focus {outline: 0;}
+blockquote{color:#666666; margin:0; padding-left: 3em; border-left: 0.5em #EEE solid;}
+hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+pre, code, kbd, samp { color: #000; font-size: 0.98em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+b, strong { font-weight: bold;color:#000; }
+
 .marginT10{margin-top: 10px;}
 .header{width: 100%;float: left;margin:0;background: #2196f3;padding:10px 0;}
 .container{max-width: 1140px;margin:0 auto;padding:0 !important;}
@@ -53,7 +68,7 @@ ul.header-top-links li a:hover{color: #fff;}
 .read-more > a {color: #1781d5; font-size: 14px; text-decoration: none; }	
 .read-more > a:hover{color: #0b6ab5;}
 .read-more img{margin-left:5px;}
-.pagination{width:100%;float: left;margin:30px 0;}
+.pagination{width:100%;float: left;margin:30px 0;position:relative;}
 .pagination ul{list-style-type: none;padding: 0;margin: 0;}
 .pagination ul li{display: inline-block;}
 .pagination ul li img{padding-right: 8px;vertical-align: middle;}
@@ -83,7 +98,6 @@ ul.header-top-links li a:hover{color: #fff;}
 .recent-posts li:last-child{margin-bottom:0;padding-bottom:0;border:0;}
 #mc_embed_signup input.button{margin-bottom:0 !important;}
 .share-img{margin-right:6px;}
-h4 {font-size: 14px;font-weight: bold;margin-bottom: 15px;}
 .share {margin-bottom: 20px;float: left;width: 100%;font-size:13px;color:#666;}
 .share a{text-decoration:none;}
 .share.home{margin-bottom:12px}
@@ -94,7 +108,7 @@ h6{padding-bottom:0 !important;}
 .clearfix{clear:both;}
 .left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;}
 .right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;}
-.page-number {display: inline-block;font-size: 14px;text-align: right;width: 35%;}
+.page-number {font-size: 14px;text-align: center;width: 100%;position:absolute;left:0;}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
@@ -103,7 +117,6 @@ h6{padding-bottom:0 !important;}
 @media only screen and (max-width:960px){
 .blog-heading.small{font-size: 14px;}
 .blog-heading{font-size:22px;max-height: 78px;}
-.page-number{width:28%;}
 }
 @media only screen and (max-width:767px){
 .right-section, .left-section {width: 100%; }
@@ -111,32 +124,31 @@ h6{padding-bottom:0 !important;}
 .right-section{margin-top:20px;}
 .blog-outer.right {padding: 4%; }
 .mid-container{margin-bottom:0;}
-.page-number {text-align: right;width: 37%;}
 }
 @media only screen and (max-width:640px){
 .popular-blog {margin-right: 0; width: 100%; }
 .blog-heading.small{max-height: 72px;}
 .blog-image.small {width: 16%; }
 .blog-content.popular {float: right; width: 79%; }
-.page-number{width:32%;}
 }
 @media only screen and (max-width:520px){
 .blog-heading.small {max-height: 36px; }
 .blog-outer{padding: 4%;}
 .blog-txt{font-size:20px;}
+.pagination ul li a{font-size:12px;padding:13px 12px;}
 }
 
 @media only screen and (max-width:460px){
 .blog-image, .blog-content{width: 100%;}
 .blog-image{margin-bottom: 15px;}
 .blog-image img{width:100%;}
-.page-number {width: 31%;}
 }
 @media only screen and (max-width:370px){
 .blog-image.small {width: 22%; }
 .blog-content.popular {width: 73%; }
 .blog-outer {padding: 20px; }
-.page-number {width: 25%;}
 }
+
+
 
 
