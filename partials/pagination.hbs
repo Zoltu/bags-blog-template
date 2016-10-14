@@ -1,12 +1,19 @@
  <section class="pagination">
   <ul>
+	{{#if prev}}	
+       <li> <a class="newer-posts" href="{{page_url}}page/1">&#60;&#60;  First</a></li> 
+   {{/if}} 
     {{#if prev}}
-       <li> <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a></li>
+       <li> <a class="newer-posts" href="{{page_url prev}}">&#60; Prev</a></li>
     {{/if}}
 	<span class="page-number">Page {{page}} of {{pages}}</span>
-    {{#if next}}
-       <li class="next"> <a class="older-posts" href="{{page_url next}}" ">Older Posts &rarr;</a></li>
+	<!--<span class="page-number"> {{total }} </span>-->
+
+	{{#if next}}
+	<li class="next"> <a class="older-posts" href="{{page_url pages}} ">Last  &#62;&#62;</a></li>
+	 {{/if}}
+	     {{#if next}}
+       <li class="next"> <a class="older-posts" href="{{page_url next}} ">Next &#62;</a></li>
     {{/if}}
 	</ul>
  </section>
-
