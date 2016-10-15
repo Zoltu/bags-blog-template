@@ -74,7 +74,7 @@ ul.header-top-links li a:hover{color: #fff;}
 .pagination ul li img{padding-right: 8px;vertical-align: middle;}
 .pagination ul li a {background: #ffffff none repeat scroll 0 0;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);text-decoration: none; color: #838383; font-size: 14px; padding: 13px 22px; }
 .pagination ul li a:hover{color: #000;}
-.pagination ul li.next{float: right;}
+.pagination ul li.next{float: right;margin-left:3px;}
 .pagination ul li.next img{padding-left: 8px;padding-right: 0;}
 
 .right-section{width:29%;float:right; }
@@ -104,11 +104,12 @@ ul.header-top-links li a:hover{color: #fff;}
 
 /* new css*/
 .blog-image.full-width.marginT25 .Image{display:none;}
+.blog-image.full-width.marginT25 a, .blog-image.full-width.marginT25 p a{font-weight: 500 !important;text-decoration: underline;}
 h6{padding-bottom:0 !important;}
 .clearfix{clear:both;}
 .left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;}
 .right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;}
-.page-number {font-size: 14px;text-align: center;width: 100%;position:absolute;left:0;}
+.page-number {font-size: 14px;text-align: center;width: 40%;position: absolute;left: 30%;}
 
 /* RESPONSIVE CSS*/
 @media only screen and (max-width:1160px){
@@ -135,7 +136,8 @@ h6{padding-bottom:0 !important;}
 .blog-heading.small {max-height: 36px; }
 .blog-outer{padding: 4%;}
 .blog-txt{font-size:20px;}
-.pagination ul li a{font-size:12px;padding:13px 12px;}
+.pagination ul li a{font-size:12px;padding:8px 8px;}
+.page-number{font-size:12px;}
 }
 
 @media only screen and (max-width:460px){
@@ -147,8 +149,5 @@ h6{padding-bottom:0 !important;}
 .blog-image.small {width: 22%; }
 .blog-content.popular {width: 73%; }
 .blog-outer {padding: 20px; }
+.page-number{left:35%;width:30%;}
 }
-
-
-
-
