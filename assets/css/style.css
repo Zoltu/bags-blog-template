@@ -42,7 +42,7 @@ b, strong { font-weight: bold;color:#000; }
 .marginT10{margin-top: 10px;}
 .header{width: 100%;float: left;margin:0;background: #2196f3;padding:10px 0;}
 .container{max-width: 1140px;margin:0 auto;padding:0 !important;}
-.logo{float: left;width:100px;}
+.logo{float: left;width:180px;}
 .logo img{max-width:100%;}
 .blog-txt{  background: url("../images/logo-divider.png") no-repeat scroll 0 0;color: #ffffff; float: left; font-size: 30px; height: 45px; line-height: 45px; margin-left: 25px; padding-left: 25px; text-transform: uppercase; width: auto;font-weight: 500;}
 .header-top{width: 100%;float: left;margin: 0;background: #0c79d3;height: 24px;}
