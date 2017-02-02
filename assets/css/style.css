@@ -58,6 +58,7 @@ ul.header-top-links li a:hover{color: #fff !important;}
 .blog-outer {width:100%; box-sizing:border-box; float:left; background: #ffffff none repeat scroll 0 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); padding: 3%;margin-bottom: 18px; }
 .blog-image{float: left;width: 32%;border: 1px solid #ececec;height: 246px;text-align: center;line-height: 226px;overflow: hidden;padding: 10px;box-sizing: border-box;vertical-align: middle; }
 .blog-image img{max-width:100%;vertical-align:middle;outline: 2px solid white;outline-offset: -2px;}
+.blog-image:blank, .blog-image:empty{display:none;} 
 .blog-content{float:right; width:64%; }
 .blog-heading{font-size: 24px; font-weight: 500; line-height: 1.2; margin-bottom: 15px;max-height: 56px;overflow: hidden; } 
 .blog-heading > a {color: #000000; text-decoration: none; }
@@ -104,12 +105,14 @@ ul.header-top-links li a:hover{color: #fff !important;}
 .share.home{margin-bottom:12px}
 
 /* new css*/
+.blog-image.full-width.marginT25{width: 100% !important;height: auto;padding: 0;line-height: normal;text-align: left;
+    border: 0;}
 .blog-image.full-width.marginT25 .Image{display:none;}
 .blog-image.full-width.marginT25 a, .blog-image.full-width.marginT25 p a{font-weight: 500 !important;text-decoration: underline;}
 h6{padding-bottom:0 !important;}
 .clearfix{clear:both;}
-.left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;}
-.right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;}
+.left-image{float: left; margin-right: 20px;margin-bottom:10px; border: 1px solid rgb(237, 236, 236); object-fit: contain; padding: 10px;width:120px;height:120px;outline:0 !important;outline-offset: 0 !important;}
+.right-image{object-fit: contain; margin: 15px; float: right; border: 1px solid rgb(237, 236, 236);padding:10px;margin: 0 0px 10px 15px;width:120px;height:120px;outline:0 !important;outline-offset: 0 !important;}
 .page-number {font-size: 14px;text-align: center;width: 40%;position: absolute;left: 30%;}
 
 /* RESPONSIVE CSS*/
@@ -150,6 +153,7 @@ h6{padding-bottom:0 !important;}
 .blog-image{margin-bottom: 15px;}
 .blog-image img{width:auto;}
 .blog-image {height: 270px;line-height: 250px;}
+.left-image, .right-image{width:100% !important;}
 }
 @media only screen and (max-width:370px){
 .blog-image.small {width: 22%; }
